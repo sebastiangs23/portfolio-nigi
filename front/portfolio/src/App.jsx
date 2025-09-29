@@ -5,15 +5,15 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 |   LANDING   */
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import Desarrollo from "./components/Desarrollo/Desarrollo";
+import Background from "./components/Background/Background";
 import Proyectos from "./components/Proyectos/Proyectos";
 import Tecnologies from "./components/Tecnologies/Tecnologies";
 
 /*__________________
 |   JOB DETAILS   */
-import JobDetailsInte from "./components/Desarrollo/components/JobDetailsInte";
-import JobDetailsIbc from "./components/Desarrollo/components/JobDetailsIbc";
-import JobDetailsDazlabs from "./components/Desarrollo/components/JobDetailsDazlabs";
+import JobDetailsInte from "./components/Background/components/JobDetailsInte";
+import JobDetailsIbc from "./components/Background/components/JobDetailsIbc";
+import JobDetailsDazlabs from "./components/Background/components/JobDetailsDazlabs";
 
 import "./App.css";
 
@@ -29,9 +29,9 @@ function App() {
               element={
                 <>
                   <Home />
-                  <Desarrollo />
+                  <Background />
                   <Proyectos />
-                  <Tecnologies />
+                  {/* <Tecnologies /> */}
                 </>
               }
             />

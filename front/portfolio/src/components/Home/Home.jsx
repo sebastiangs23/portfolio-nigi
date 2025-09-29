@@ -24,7 +24,7 @@ function Home() {
                   setTimeout(() => setShowHand(false), 1000)
                 }
               >
-                👨🏻‍💻
+                👩🏽‍🍳
               </motion.div>
             )}
           </div>

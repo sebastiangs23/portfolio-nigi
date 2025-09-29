@@ -2,8 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-.signature{
-  width: 200px;
+.animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 10px 0px;
+  width: 270px;
+  height: 100px;
+  background: white;
+  border-radius: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  transition: 1s box-shadow;
+}
+
+.animation:hover {
+  box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
+}
+
+.animation:hover::before,
+.animation:hover::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 270px;
+  height: 100px;
+  background-color: var(--hover-color-main);
+  border-radius: 15px;
+  z-index: -1;
+  animation: 1s clockwise infinite;
+}
+
+.animation:hover:after {
+  background: black;
+  animation: 2s counterclockwise infinite;
 }
 
 @keyframes giroMoneda {

@@ -48,6 +48,9 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+
+  /*========== Animations ==========*/
+  --hover-color-main: #FF6975;
 }
 
 /* Responsive typography */
@@ -163,6 +166,7 @@ button {
 .hover-style_v2:hover {
   transition-delay: 0.5s;
   color: #fff;
+  border-color: var(--hover-color-main);
 }
 
 .hover-style_v2:hover:after {
@@ -170,11 +174,11 @@ button {
 }
 
 .hover-style_v2:after {
-  background-color: #1c1e21;
+  background-color: var(--hover-color-main);
   border-radius: 100%;
   content: "";
+  border-color: var(--hover-color-main);
   height: 167px;
-  /* min-width: 167px; */
   position: absolute;
   top: 0;
   transform: scale(1) translateY(67px);

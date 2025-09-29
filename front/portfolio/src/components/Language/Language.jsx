@@ -1,41 +1,65 @@
 import React, { createContext, useContext, useState } from "react";
 
 const sentences = {
-  spanish: {
+  french: {
     navBar: [
       {
-        name: 'Inicio',
+        name: 'Page d\'accueil',
         href: '#home'
       },
       {
-        name: 'Desarrollo',
-        href: '#desarrollo'
+        name: 'Contexte',
+        href: '#background'
       },
       {
-        name: 'Proyectos',
-        href: '#projectos'
+        name: 'Pâtisseries',
+        href: '#pastries'
       },
       {
-        name: 'Tecnologías',
-        href: '#tecnologias'
+        name: 'Certifications',
+        href: '#certifications'
       }
     ],
-    start: "Inicio",
-    background_: "Desarrollo",
-    projects: "Proyectos",
-    technologies: "Tecnologías",
-    position: "Desarrollador de Software",
-    description_position:
-      "Me gusta llevar las ideas de la mente al software y crear nuevas aplicaciones, herramientas y tecnologías con el objetivo ofrecer soluciones a traves de ellas.",
-    curriculum: "Currículum Español",
+    start: "Page d'accueil",
+    background_: "Contexte",
+    pastries: "Pâtisseries",
+    certifications: "Certifications",
+    position: "Chef de Postres",
+    description_position: "Professionnel de la pâtisserie orienté vers le détail, passionné par l’art de la pâtisserie. Ma créativité et mes compétences interpersonnelles me donnent un avantage. Esprit d’équipe, proactif, adaptable et soucieux de la qualité. Positif, jovial et ouvert d’esprit, habitué à un rythme soutenu. Excellente aptitude aux relations avec les clients et au service.",
+    curriculum: "Currículum French",
     curriculum_link: "https://docs.google.com/document/d/189xJH_zdEJyKH3OHbvBwqJMLCChYMZ_73_zD72AmdSU/edit?tab=t.0",
-    certifications: "Certificados",
     certifications_link: "https://drive.google.com/file/d/155D_WDM7ZLKUH_8rlangKlkF0TFTl3un/view?usp=sharing",
-    background: "Formación",
-    background_subtitle: "Mi desarrollo",
-    work_experience: "Experiencia laboral",
-    education: "Mi educación",
-    skill: "Aptitudes",
+    background: "Formation",
+    background_subtitle: "Mon développement",
+    work_experience: "Expérience professionnelle",
+    education: "Mon éducation",
+    skill: "Compétences",
+    works: [
+      {
+        position: "",
+        date: "",
+        description: "",
+        description_2: "",
+      },
+      {
+        position: "",
+        date: "",
+        description: "",
+        description_2: "",
+      },
+      {
+        position: "",
+        date: "",
+        description: "",
+        description_2: "",
+      },
+      {
+        position: "",
+        date: "",
+        description: "",
+        description_2: "",
+      },
+    ],
     work_neoris_position: "Desarrollador Frontend Semi Senior",
     work_neoris_date: "2025 Marzo - Actualidad",
     work_neoris_description: "Diseñé Web Components reutilizables y totalmente responsivos para BBVA, utilizando un framework interno (Cells) y principios de clean code. Cada componente fue testeado, documentado e incluía casos de uso detallados para asegurar su funcionalidad y mantenibilidad.",
@@ -45,7 +69,6 @@ const sentences = {
     work_inlearning_date: "2024 Octubre - 2025 Marzo",
     work_inlearing_description: "Diseñé y refactoricé componentes y vistas jerárquicas completamente responsivas, con hasta 5 niveles de interconexión mediante props, emits, inject, provide y refs. Migré más de 20 vistas a TypeScript aplicando buenas prácticas con interfaces, tipos, operadores ternarios, type guards y coalescencia nula.",
     work_inlearning_description_2: "Además, desarrollé más de 50 plantillas de correo electrónico automatizadas, enviadas cronológicamente a todos los usuarios.",
-
     work_dazlabs_position: "Desarrollador Backend",
     work_dazlabs_date: "2024 Agosto - 2025 Marzo",
     work_dazlabs_description: "Desarrollé múltiples servicios backend para diferentes productos (viajes, belleza y automatización interna), diseñando colecciones en MongoDB y entregando endpoints RESTful probados y documentados con Swagger;",
@@ -124,24 +147,22 @@ const sentences = {
       },
       {
         name: 'Background',
-        href: '#desarrollo'
+        href: '#background'
       },
       {
-        name: 'Projects',
-        href: '#projectos'
+        name: 'Pastries',
+        href: '#pastries'
       },
       {
-        name: 'Technologies',
-        href: '#tecnologias'
+        name: 'Certifications',
+        href: '#certifications'
       }
     ],
     start: "Start",
     background_: "Background",
-    projects: "Projects",
-    technologies: "Technologies",
-    position: "Software Developer",
-    description_position:
-      "I enjoy taking ideas from the mind to software and creating new applications, tools, and technologies with the aim of providing solutions through them.",
+    pastries: "Pastries",
+    position: "Demi Chef de Partie",
+    description_position: "Detailed oriented pastry professional, highly passionate for patisserie art. My Creativity & interpersonal skills gives me an edge. Team player, proactive, adaptive, quality conscious. Positive, happy & open minded, Used to being busy,  Good at guest relations & service aptitude. ",
     curriculum: "Curriculum English",
     curriculum_link:
       "https://docs.google.com/document/d/1I0UgdRaRptBlzsb_EVH55I9azX-1m4Bo/edit?usp=sharing&ouid=115427612197801979579&rtpof=true&sd=true",
@@ -152,6 +173,34 @@ const sentences = {
     work_experience: "Work Experience",
     education: "Education",
     skill: "Skills",
+    works: [
+      {
+        position: "Demi Chef de Partie",
+        company: "Miral Experiences",
+        date: "September 2025 - Present",
+        description: "Responsible for creating assorted desserts filled with unique flavor, presenting with creativity and ensuring consistency.",
+        description_2: " Managing pastry kitchen cost, inventory & ordering."
+      },
+      {
+        position: "Pastry commie 1st",
+        company: "Dusit Thani, sheik Zayed road, Dubai",
+        date: "November 2024 - August 2025",
+        description: "I specialized in creating chocolate sculptures, artistic showpieces, fondant art, assorted garnishes, customized 3D cakes, and cake pops, earning recognition as Kitchen Employee of the Month, Heart of the House, and a certificate of appreciation from the General Manager. Additionally, I was promoted from Commis 2nd to Commis 1st and completed certified cross-training in the Finance Department.",
+      },
+      {
+        position: "Completed on job training in pastry kitchen",
+        company: "IHG Crowne plaza, Dubai",
+        date: "November 2021 - October 2022",
+        description: "I was responsible for handling fine dining à la carte orders while ensuring strict adherence to daily hygiene, food safety practices, and accurate record-keeping.",
+        description_2: "Additionally, I managed in-house production of cakes, plated desserts, and traditional Arabic sweets, including homemade baklava and oriental cookies.",
+      },
+      {
+        position: "Industrial training at Fairmont",
+        company: "Accor, Jaipur",
+        date: "November 2020 - April 2021",
+        description: "Received appreciation for delivering quality work and gained experience at àla Carte kitchen & Pastry.",
+      },
+    ],
     work_ibc_position: "Software Developer",
     work_ibc_date: "2023 November - 2024 June",
     work_ibc_description:
@@ -230,7 +279,7 @@ const sentences = {
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState("spanish");
+  const [language, setLanguage] = useState("english");
 
   function switchLanguage(lang) {
     setLanguage(lang);
