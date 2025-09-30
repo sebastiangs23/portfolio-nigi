@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 /*______________
@@ -7,7 +6,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Background from "./components/Background/Background";
 import Proyectos from "./components/Proyectos/Proyectos";
-import Tecnologies from "./components/Tecnologies/Tecnologies";
+// import Tecnologies from "./components/Tecnologies/Tecnologies";
 
 /*__________________
 |   JOB DETAILS   */

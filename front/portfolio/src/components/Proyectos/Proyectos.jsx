@@ -25,8 +25,8 @@ function Proyectos() {
   };
 
   return (
-    <section className="section__projects" id="projectos">
-      <h2 className="section__title">{sentences?._projects}</h2>
+    <section className="section__gallery" id="projectos">
+      <h2 className="section__title">{sentences?._gallery}</h2>
 
       {/* RADIO BUTTOM */}
       <div className="flex justify-center items-center mt-5 ">

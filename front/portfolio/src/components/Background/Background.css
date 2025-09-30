@@ -49,7 +49,7 @@
 }
 
 .training__core-tabs-button:after {
-  background-color: #1c1e21;
+  background-color: var(--hover-color-main);
   border-radius: 50%;
   content: "";
   height: 167px;
@@ -65,7 +65,7 @@
   align-items: center;
   display: inline-flex;
   justify-content: center;
-  border: 1px solid #1c1e21;
+  border: 1px solid var(--hover-color-main);
   border-radius: 50px;
   color: #1c1e21;
   line-height: 16px;
@@ -80,7 +80,7 @@
 }
 
 .training__core-tabs-active:after {
-  background-color: #1c1e21;
+  background-color: var(--hover-color-main);
   border-radius: 50%;
   content: "";
   height: 167px;
@@ -99,21 +99,19 @@
 }
 
 .training__core-tabs-active {
-  /* color: var(--title-color-dark); */
   transition-delay: 0.5s;
   color: #fff;
 }
 
 .training__core-tabs-active:after {
   transform: scale(1.47) translateY(0);
-  background-color: #1c1e21;
+  background-color: var(--hover-color-main);
   border-radius: 50%;
   content: "";
   height: 167px;
   min-width: 167px;
   position: absolute;
   top: 0;
-  /* transform: scale(1) translateY(67px); */
   transition: transform 1s cubic-bezier(0.66, 0, 0.34, 1);
   width: 100%;
   z-index: -1;
