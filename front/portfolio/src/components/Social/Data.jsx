@@ -59,24 +59,24 @@ function Data() {
         </svg>
       </h1>
       
-      <h3 className="home__subtitle">{sentences.position}</h3>
-      <p className="home__description">{sentences.description_position} </p>
+      <h3 className="home__subtitle">{sentences?.position}</h3>
+      <p className="home__description">{sentences?.description_position} </p>
 
       <a
-        href={sentences.curriculum_link}
+        href={sentences?.curriculum_link}
         className="button button--flex"
         target="_black"
       >
-        {sentences.curriculum}
+        {sentences?.curriculum}
         <i className="uil uil-file-download"></i>
       </a>
 
       <a
-        href={sentences.certifications_link}
+        href={sentences?.certifications_link}
         className="button button--flex"
         target="_blank"
       >
-        {sentences.certifications}
+        {sentences?.certifications}
         <i className="uil uil-graduation-cap"></i>
       </a>
     </div>

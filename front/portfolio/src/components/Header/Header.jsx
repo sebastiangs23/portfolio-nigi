@@ -38,7 +38,7 @@ function Header() {
       </h1>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 mr-10">
-        {showNavbar && sentences.navBar?.map((item, index) => {
+        {showNavbar && sentences?.navBar?.map((item, index) => {
           return (
             <li key={index} className="font-poppins font-normal cursor-pointer text-[14px] mr-3">
               <a href={item.href} className="hover-style_v2 hover-style_v2--normal">
