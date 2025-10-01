@@ -7,6 +7,7 @@ import Home from "./components/Home/Home";
 import Background from "./components/Background/Background";
 import Proyectos from "./components/Proyectos/Proyectos";
 // import Tecnologies from "./components/Tecnologies/Tecnologies";
+import Slider from "./components/Proyectos/Slider";
 
 /*__________________
 |   JOB DETAILS   */
@@ -29,7 +30,7 @@ function App() {
                 <>
                   <Home />
                   <Background />
-                  <Proyectos />
+                  <Slider />
                   {/* <Tecnologies /> */}
                 </>
               }

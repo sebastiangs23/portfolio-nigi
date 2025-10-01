@@ -78,10 +78,10 @@ const sentences = {
         date: "2019 - 2022",
       },
       {
-        company: "Chitkara University",
+        company: "st. Joseph convent school, Kotdwar, Uttarakhand, India.",
         culminated: "Culminated",
         career: "Convented school",
-        date: "2010 - 2017",
+        date: "2005 - 2017",
       },
     ],
     skills_personal: "Personal",
