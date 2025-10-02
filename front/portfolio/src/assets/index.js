@@ -26,7 +26,7 @@ export const slider_images = [
     price: 20,
   },
   {
-    name: "Choco Fondue with Matcha green tea",
+    name: "Choco Fondue with Matcha",
     image: choco_fondue,
     price: 40,
   },

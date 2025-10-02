@@ -19,7 +19,7 @@ import "./Slider2.css";
 
 export default function Slider() {
   const { sentences } = useLanguage();
-  // TODO: MAKE DYNAMIC THE SLIDES AND CHANGE THE COLOR OF THE ARROW
+  
   return (
     <section id="tranding">
       <h2 className="section__title">{sentences?._gallery}</h2>
@@ -65,7 +65,7 @@ export default function Slider() {
                   </div>
                 </div>
               </SwiperSlide>
-            );
+            )
           })}
 
         </Swiper>
