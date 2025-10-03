@@ -146,7 +146,6 @@ button {
   color: #1c1e21;
   line-height: 16px;
   overflow: hidden;
-  /* padding: 13px 20px; */
   position: relative;
   text-align: center;
   transition: color 0.33s linear 0.5s, border-color ease-out 0.5s;

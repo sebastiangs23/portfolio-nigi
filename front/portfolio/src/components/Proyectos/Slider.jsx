@@ -1,10 +1,5 @@
 import { slider_images } from "../../assets";
-import image1 from "./images/9.jpg";
-import image2 from "./images/8.jpg";
-import image3 from "./images/4.jpg";
-import image4 from "./images/7.jpg";
-import image5 from "./images/9.jpg";
-
+import { useLanguage } from "../Language/Language";
 import { FaStar } from "react-icons/fa";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,15 +8,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, EffectCoverflow } from "swiper/modules";
 
-import { useLanguage } from "../Language/Language";
-
 import "./Slider2.css";
 
 export default function Slider() {
   const { sentences } = useLanguage();
   
   return (
-    <section id="tranding">
+    <section className="gallery" id="pastries">
       <h2 className="section__title">{sentences?._gallery}</h2>
 
       <div className="container">
@@ -40,17 +33,17 @@ export default function Slider() {
           }}
           pagination={{ clickable: true }}
           navigation
-          className="tranding-slider"
+          className="gallery-slider"
         >
           {slider_images?.map((item, index) => {
             return (
-              <SwiperSlide className="tranding-slide">
-                <div className="tranding-slide-img">
-                  <img src={item?.image} alt="Tranding" />
+              <SwiperSlide className="gallery-slide" key={index}>
+                <div className="gallery-slide-img">
+                  <img src={item?.image} alt="gallery" />
                 </div>
-                <div className="tranding-slide-content">
+                <div className="gallery-slide-content">
                   <h1 className="food-price">${item?.price} </h1>
-                  <div className="tranding-slide-content-bottom">
+                  <div className="gallery-slide-content-bottom">
                     <h2 className="food-name">{item?.name}</h2>
                     <h3 className="food-rating">
                       <span>4.5</span>
@@ -67,7 +60,6 @@ export default function Slider() {
               </SwiperSlide>
             )
           })}
-
         </Swiper>
       </div>
     </section>

@@ -1,16 +1,19 @@
 import { useState } from "react";
-import { email } from "../../utils/constants";
+import { email, number } from "../../utils/constants";
+import { useLanguage } from "../Language/Language";
+import { FaRegCopyright, FaTrademark } from "react-icons/fa";
 
 export default function ContactMe() {
   const [message, setMessage] = useState("");
+  const { sentences } = useLanguage();
 
   const handleClick = () => {
     if (!message) return;
 
-    const subject = "Contact from my website"; // you can customize this
+    const subject = "";
     const body = encodeURIComponent(message);
 
-     window.open(
+    window.open(
       `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(
         subject
       )}&body=${body}`,
@@ -19,26 +22,31 @@ export default function ContactMe() {
   };
 
   return (
-    <section>
-      <h4>ContactMe</h4>
-      <h4>Number: 1231223123</h4>
-      <h4>email: assdsadaq@gmail.com</h4>
+    <section className="flex flex-col items-center justify-center text-center mb-10" id="contact">
+      <h2 className="training__title mb-5">{sentences?.contactMe} </h2>
+      <div className="max-w-lg w-full">
+        <p className="mb-2">Number: {number}</p>
+        <p className="mb-2">Email: {email}</p>
 
-      <h4>{new Date().getFullYear()}</h4>
+        <textarea
+          placeholder="Enter your message..."
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          className="border p-3 rounded w-full h-48 resize-none"
+        />
+        <button
+          onClick={handleClick}
+          className="mt-4 w-full hover-style_v2 hover-style_v2--normal"
+        >
+          Send Email
+        </button>
 
-      <input
-        type="email"
-        placeholder="Enter message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-        className="border p-2 rounded"
-      />
-      <button
-        onClick={handleClick}
-        className="ml-2 px-4 py-2 bg-blue-600 text-white rounded"
-      >
-        Send Email
-      </button>
+        <div className="mt-6 flex items-center justify-center gap-1 text-sm text-gray-600">
+          <FaRegCopyright />
+          <span>{new Date().getFullYear()} All rights reserved</span>
+          <FaTrademark className="ml-1" />
+        </div>
+      </div>
     </section>
   );
 }

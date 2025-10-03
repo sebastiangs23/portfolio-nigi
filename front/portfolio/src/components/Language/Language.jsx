@@ -16,8 +16,8 @@ const sentences = {
         href: "#pastries",
       },
       {
-        name: "Certifications",
-        href: "#certifications",
+        name: "Contact Me",
+        href: "#contact",
       },
     ],
     start: "Start",
@@ -106,7 +106,7 @@ const sentences = {
       "Good at guest relations",
     ],
     _gallery: "— Gallery —",
-    database: "Database",
+    contactMe: "— Contact Me —",
   },
   french: {
     navBar: [
@@ -123,15 +123,15 @@ const sentences = {
         href: "#pastries",
       },
       {
-        name: "Certifications",
-        href: "#certifications",
+        name: "Contactez-moi",
+        href: "#contact",
       },
     ],
     start: "Page d'accueil",
     background_: "— Parcours —",
     pastries: "Pâtisseries",
     certifications: "Certifications",
-    position: "Demi Chef de Partie",
+    position: "Demi-chef de partie",
     description_position:
       "Professionnel de la pâtisserie orienté vers le détail, passionné par l’art de la pâtisserie. Ma créativité et mes compétences interpersonnelles me donnent un avantage. Esprit d’équipe, proactif, adaptable et soucieux de la qualité. Positif, jovial et ouvert d’esprit, habitué à un rythme soutenu. Excellente aptitude aux relations avec les clients et au service.",
     curriculum: "Curriculum vitæ français",
@@ -142,7 +142,7 @@ const sentences = {
     background: "— Formation —",
     background_subtitle: "Mon développement",
     work_experience: "Expérience professionnelle",
-    education: "Mon éducation",
+    education: "Éducation",
     skill: "Compétences",
     works: [
       {
@@ -181,18 +181,18 @@ const sentences = {
     all_education: [
       {
         company: "Chitkara University",
-        culminated: "Completed",
-        career: "Culinary Arts, Baking and Pastry Arts",
+        culminated: "Diplômé",
+        career: "Arts culinaires, boulangerie et pâtisserie",
         date: "2019 - 2022",
       },
       {
-        company: "Chitkara University",
-        culminated: "Completed",
-        career: "Convent School",
-        date: "2010 - 2017",
+        company: "École conventuelle Saint-Joseph, Kotdwar, Uttarakhand, Inde",
+        culminated: "Diplômé",
+        career: "École conventuelle",
+        date: "2005 - 2017",
       },
     ],
-    skills_personal: "Personal",
+    skills_personal: "Personnel",
     skills_personal_all: [
       "Résistance au stress",
       "Rapidité et efficacité",
@@ -203,7 +203,7 @@ const sentences = {
       "Capacité à travailler de manière autonome",
       "Esprit critique et souci de la qualité",
     ],
-    skills_team: "Equipo",
+    skills_team: "Équipe",
     skills_team_all: [
       "Esprit d'équipe",
       "Proactif",
@@ -214,7 +214,7 @@ const sentences = {
       "Bonnes relations avec les clients",
     ],
     _gallery: "— Galerie —",
-    database: "Base de datos",
+    contactMe: "— Contactez-moi —",
   },
 };
 

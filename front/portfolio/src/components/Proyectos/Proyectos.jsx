@@ -25,7 +25,7 @@ function Proyectos() {
   };
 
   return (
-    <section className="section__gallery" id="projectos">
+    <section className="section__gallery">
       <h2 className="section__title">{sentences?._gallery}</h2>
 
       {/* RADIO BUTTOM */}
