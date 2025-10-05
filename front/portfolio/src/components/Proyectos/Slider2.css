@@ -89,6 +89,7 @@ body {
   position: absolute;
   top: 2rem;
   right: 2rem;
+  margin-right: 2rem;
   color: #ffffff;
   font-size: 2.85rem;
 }
@@ -166,6 +167,7 @@ body {
   }
   .gallery-slide-content .food-price {
     font-size: 2rem;
+    margin-right: 0rem;
   }
 }
 
