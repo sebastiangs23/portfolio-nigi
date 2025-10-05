@@ -3,6 +3,8 @@ import { email, number } from "../../utils/constants";
 import { useLanguage } from "../Language/Language";
 import { FaRegCopyright, FaTrademark } from "react-icons/fa";
 
+import "./ContactMe.css";
+
 export default function ContactMe() {
   const [message, setMessage] = useState("");
   const { sentences } = useLanguage();
@@ -22,7 +24,7 @@ export default function ContactMe() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center text-center mb-10" id="contact">
+    <section className="flex flex-col items-center justify-center text-center mb-10 contact-me-container" id="contact">
       <h2 className="training__title mb-5">{sentences?.contactMe} </h2>
       <div className="max-w-lg w-full">
         <p className="mb-2">Number: {number}</p>

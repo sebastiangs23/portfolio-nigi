@@ -46,7 +46,7 @@ export default function Slider() {
                   <div className="gallery-slide-content-bottom">
                     <h2 className="food-name">{item?.name}</h2>
                     <h3 className="food-rating">
-                      <span>4.5</span>
+                      <span>5</span>
                       <div className="rating">
                         <FaStar />
                         <FaStar />
