@@ -28,7 +28,7 @@ const sentences = {
       "Detailed oriented pastry professional, highly passionate for patisserie art. My Creativity & interpersonal skills gives me an edge. Team player, proactive, adaptive, quality conscious. Positive, happy & open minded, Used to being busy,  Good at guest relations & service aptitude. ",
     curriculum: "Curriculum",
     curriculum_link:
-      "https://drive.google.com/file/d/1eppf-Gvtpj_Cdnqcn_DhKUYwp00q7V8S/view?usp=drivesdk",
+      "https://drive.google.com/file/d/1vFBvQACetV_VhoO16fxKv28bwu5gr8sH/view?usp=sharing",
     certifications: "Certifications",
     certifications_link:
       "https://drive.google.com/file/d/1eppf-Gvtpj_Cdnqcn_DhKUYwp00q7V8S/view?usp=drivesdk",
@@ -136,7 +136,7 @@ const sentences = {
       "Professionnel de la pâtisserie orienté vers le détail, passionné par l’art de la pâtisserie. Ma créativité et mes compétences interpersonnelles me donnent un avantage. Esprit d’équipe, proactif, adaptable et soucieux de la qualité. Positif, jovial et ouvert d’esprit, habitué à un rythme soutenu. Excellente aptitude aux relations avec les clients et au service.",
     curriculum: "Curriculum vitæ",
     curriculum_link:
-      "https://drive.google.com/file/d/1eppf-Gvtpj_Cdnqcn_DhKUYwp00q7V8S/view",
+      "https://drive.google.com/file/d/1vFBvQACetV_VhoO16fxKv28bwu5gr8sH/view?usp=sharing",
     certifications_link:
       "https://drive.google.com/file/d/155D_WDM7ZLKUH_8rlangKlkF0TFTl3un/view?usp=sharing",
     background: "— Formation —",
