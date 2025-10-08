@@ -26,12 +26,12 @@ const sentences = {
     position: "Demi Chef de Partie",
     description_position:
       "Detailed oriented pastry professional, highly passionate for patisserie art. My Creativity & interpersonal skills gives me an edge. Team player, proactive, adaptive, quality conscious. Positive, happy & open minded, Used to being busy,  Good at guest relations & service aptitude. ",
-    curriculum: "Curriculum English",
+    curriculum: "Curriculum",
     curriculum_link:
-      "https://docs.google.com/document/d/1I0UgdRaRptBlzsb_EVH55I9azX-1m4Bo/edit?usp=sharing&ouid=115427612197801979579&rtpof=true&sd=true",
+      "https://drive.google.com/file/d/1eppf-Gvtpj_Cdnqcn_DhKUYwp00q7V8S/view?usp=drivesdk",
     certifications: "Certifications",
     certifications_link:
-      "https://drive.google.com/file/d/155D_WDM7ZLKUH_8rlangKlkF0TFTl3un/view?usp=sharing",
+      "https://drive.google.com/file/d/1eppf-Gvtpj_Cdnqcn_DhKUYwp00q7V8S/view?usp=drivesdk",
     background: "— Background —",
     background_subtitle: "My development",
     work_experience: "Work Experience",
@@ -134,9 +134,9 @@ const sentences = {
     position: "Demi-chef de partie",
     description_position:
       "Professionnel de la pâtisserie orienté vers le détail, passionné par l’art de la pâtisserie. Ma créativité et mes compétences interpersonnelles me donnent un avantage. Esprit d’équipe, proactif, adaptable et soucieux de la qualité. Positif, jovial et ouvert d’esprit, habitué à un rythme soutenu. Excellente aptitude aux relations avec les clients et au service.",
-    curriculum: "Curriculum vitæ français",
+    curriculum: "Curriculum vitæ",
     curriculum_link:
-      "https://docs.google.com/document/d/189xJH_zdEJyKH3OHbvBwqJMLCChYMZ_73_zD72AmdSU/edit?tab=t.0",
+      "https://drive.google.com/file/d/1eppf-Gvtpj_Cdnqcn_DhKUYwp00q7V8S/view",
     certifications_link:
       "https://drive.google.com/file/d/155D_WDM7ZLKUH_8rlangKlkF0TFTl3un/view?usp=sharing",
     background: "— Formation —",
